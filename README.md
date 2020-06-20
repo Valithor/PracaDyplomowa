@@ -11,9 +11,28 @@ Aplikacja webowa, której celem jest rozwijanie umiejętności i pomoc w lepszym
 <h3>Diagram przypadków użycia (z uwzględnieniem różnych aktorów)</h3>
 <img src="https://github.com/Valithor/PracaDyplomowa/blob/master/DPU.png">
 <h3>Opisy poszczególnych funkcjonalności (w postaci scenariuszy)</h3>
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269      
+  <!-- TABLE_GENERATE_START -->
+| Przypadek użycia  | Dodaj zadanie |
+| ------------- | ------------- |
+| Aktor  | Admin  |
+| Scenariusz  | 1. Zalogowany admin przechodzi do eranu dodaj zadanie.<br> 2. System wyświetla ekran dodawania zadania. <br> 3. Admin uzupełnia dane (numer patcha, kategorię zadania, rękę gracza wraz z odpowiedziami na kliknięcie każdej karty) i stan stołu po stronie gracza i przeciwnika. <br> 4. System dodaje zadanie do bazy danych.|
+| Wymagania  | Zalogowany użytkownik z uprawnieniami administratora.  |<br>
+<!-- TABLE_GENERATE_END -->
+
+  <!-- TABLE_GENERATE_START -->
+| Przypadek użycia  | Wybierz kategorię |
+| ------------- | ------------- |
+| Aktor  | Użytkownik, System  |
+| Scenariusz  | 1. Użytkownik wybiera kategorię, z której interesuje go zadanie.<br> 2. System losuje i wyświetla zadanie z określonej puli.|<br>
+<!-- TABLE_GENERATE_END -->
+
+  <!-- TABLE_GENERATE_START -->
+| Przypadek użycia  | Rozwiąż zadanie |
+| ------------- | ------------- |
+| Aktor  | Użytkownik, System  |
+| Scenariusz  | 1. Użytkownik wybiera odpowiedź. <br> 2. System wyświetla mu odpowiedź na jego wybór (odpowiedź zła/dobra, wyjaśnienie). <br> 3. Użytkownik powraca do ekranu głównego.|
+| Alternatywne przebiegi zdarzeń  | 2a. Jeśli użytkownik jest zalogowany i odpowiedział poprawnie na pytanie system to zapisuje, aby nie pokazać tego samego zadania ponownie.  |
+<!-- TABLE_GENERATE_END -->
 <h3>Technologie</h3>
 <ul>
   <li>React</li>

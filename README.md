@@ -7,6 +7,7 @@ Aplikacja webowa, której celem jest rozwijanie umiejętności i pomoc w lepszym
   <br>Gracz po wejściu na stronę może wybrać kategorię z której chce się podszkolić. System losuje mu zadanie z danej kategotii. Zadanie to statyczny stan gry (stan stołu po obu stronach i ręka gracza). Po wybraniu karty, którą gracz chce zagrać system mówi mu czy decyzja była poprawna i daje dogłebne, analityczne podsumowanie sytuacji. 
   
 <h3>1. Schemat bazy danych</h3>
+<img src="https://github.com/Valithor/PracaDyplomowa/blob/master/BD.png">
 <h3>2. Diagram przypadków użycia (z uwzględnieniem różnych aktorów)</h3>
 
 <h3>3. Opisy poszczególnych funkcjonalności (w postaci scenariuszy)</h3>

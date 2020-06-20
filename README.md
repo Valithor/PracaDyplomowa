@@ -9,7 +9,7 @@ Aplikacja webowa, której celem jest rozwijanie umiejętności i pomoc w lepszym
 <h3>1. Schemat bazy danych</h3>
 <img src="https://github.com/Valithor/PracaDyplomowa/blob/master/BD.png">
 <h3>2. Diagram przypadków użycia (z uwzględnieniem różnych aktorów)</h3>
-
+<img src="https://github.com/Valithor/PracaDyplomowa/blob/master/DPU.png">
 <h3>3. Opisy poszczególnych funkcjonalności (w postaci scenariuszy)</h3>
 
 <h3>Technologie</h3>
